@@ -15,4 +15,12 @@ A project about interpreter at 2016302580007
 值得注意的是，我们的表达式类BinaryExprAST中包含有运算符的'左子树和右子树'，因此我们需要调用get()方法获取父类的指针，而后调用toString()函数实现打印：如下图：
 ![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/binary%20method.png)
 
-完成了语法树的相关内容后我们测试一下输出，我们输入 'a+b*(8-c)-2'，得到输出结果如下
+完成了语法树输出，我们可以看到表达式背存在FunctionAST的成员变量body中，所以我们新建一个getFuncBody函数获取表达式信息：
+![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/getFuncBody.png)
+
+最后我们可以看到表达式在HandleTopLevelExpression()函数中被循环遍历，所以我们取出FunctionAST对象并且获取其表达式变量body，进而输出：
+![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/toPrint.png)
+
+### 二.初步结果测试（前缀表达书）
+下面我们测试一下输出结果，我们输入'a+b*(8-c)+6',得到结果如下图:
+![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/PrefixExpression.png)
