@@ -26,7 +26,7 @@ A project about interpreter at 2016302580007
 ![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/toPrint.png)
 
 
-### 二.初步结果测试（前缀表达书）
+### 二.初步结果测试（前缀表达式）
 下面我们测试一下输出结果，我们输入'a+b*(8-c)+6',得到结果如下图:
 
 ![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/PrefixExpression.png)
