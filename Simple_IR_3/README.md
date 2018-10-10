@@ -32,4 +32,4 @@ A project about interpreter at 2016302580007
 ![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/Simple_IR_3/func_result.png)
 
 #### 输出函数重定义的错误日志:
-![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/Simple_IR_3/redef_result.png)
+![image text](https://github.com/Bluchris/Expression-2016302580007/blob/master/Simple_IR_3/redef_result.jpg)
